@@ -1,5 +1,6 @@
 # Spring Boot on Docker connecting to MySQL Docker container
 
+testing this 
 1. Use MySQL Image published by Docker Hub (https://hub.docker.com/_/mysql/)
 Command to run the mysql container
 `docker run --name mysql-standalone -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=test -e MYSQL_USER=sa -e MYSQL_PASSWORD=password -d mysql:5.6`
